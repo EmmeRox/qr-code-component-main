@@ -1,12 +1,14 @@
 body {
-  background-color: rgb(179, 211, 211);
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: "Outfit";
 }
 
-section {
+main {
   max-width: 250px;
-  margin: auto;
-  margin-top: 5em;
-  background-color: aliceblue;
+  background-color: white;
   padding: 1rem;
   border-radius: 1rem;
 }
@@ -22,7 +24,7 @@ h1 {
   text-align: center;
   padding: 0 0.1rem;
   margin: 0.3rem 1rem;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
